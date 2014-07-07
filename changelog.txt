@@ -1,0 +1,41 @@
+=================================================================================
+[CHANGELOG]
+This file contains both API and H5 changes since the first version of the project 
+=================================================================================
+
+
+2.6.1 	refactored framework and modules
+	added help system
+	added cache support (experimental)
+2.5.4	added support for file transfer
+	added full UTF-8 support
+2.5.3	enhanced intergration with Windows 8 and UAC
+2.5.2	exposed interval timer configuration to API
+2.5.1	remove network optimization due to instability
+2.5	upgraded API to 2.4
+	fixes to PHP serverside code
+2.4	added benc64 compiler
+2.3	implemented the modules framework SDK
+2.2	common structure which ensures the valid communication of modules
+2.1.2	added network optimize routines
+2.1.1	added debugger support
+2.1	H5 is now totally modular 
+	improved base64 implementation
+2.0	new revision with codename "HAMKO5"
+=================================================================================	
+1.4	implementation of instances API 2.0
+1.3.2	refactor of the API to version 1.2 (fixed some issues)
+1.3.1	fixed encoding issues caused by incorrect buffer size
+1.3	added base64 encoding of modules
+1.2	core split using modules
+1.1	added NCQ with PHP support
+	FTP dropped
+1.0	core refactor with codename "cobra"
+=================================================================================
+0.4.1	fixed shellexecute_ with relative paths
+0.4	added process control functions
+0.3	added i/o functions and registry autostart
+0.2.1	fixed memory leak with LIST
+0.2	added NCQ with FTP support
+0.1	first release with codename "netbot"
+
